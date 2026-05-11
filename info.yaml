@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     463703363693880321       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "test"      # Project title
-  author:       "sdsdsd"      # Your name
+  wokwi_id:     463711763041599489       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "IEEE Open Silicon: UTB UART Transmitter basic"      # Project title
+  author:       "George Archbold, Semillero SIMIC UTB"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "dfdfdf dfdfdf dfxcxc sdsdsd sdsdsddfdf"      # One line description of what your project does
+  description:  "An 8-bit serial transmitter that converts parallel ASCII data (supporting characters from 0x40 to 0x5F) into a standard UART frame using a shift register architecture"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,24 +16,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "in0"
-  ui[1]: "in1"
-  ui[2]: "in2"
-  ui[3]: "in3"
-  ui[4]: "in4"
-  ui[5]: "in5"
-  ui[6]: "in6"
-  ui[7]: "in7"
+  ui[0]: ""
+  ui[1]: "bit0"
+  ui[2]: "bit1"
+  ui[3]: "bit2"
+  ui[4]: "bit3"
+  ui[5]: "bit4"
+  ui[6]: "loadTX"
+  ui[7]: "out_en"
 
   # Outputs
-  uo[0]: "out0"
-  uo[1]: "out1"
-  uo[2]: "out2"
-  uo[3]: "out3"
-  uo[4]: "out4"
-  uo[5]: "out5"
-  uo[6]: "out6"
-  uo[7]: "out7"
+  uo[0]: "tx_check"
+  uo[1]: ""
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: "out_enable"
+  uo[6]: ""
+  uo[7]: "TX"
 
   # Bidirectional pins
   uio[0]: ""

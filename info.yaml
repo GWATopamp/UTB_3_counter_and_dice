@@ -19,11 +19,11 @@ pinout:
   ui[0]: "in0"
   ui[1]: "in1"
   ui[2]: "in2"
-  ui[3]: "in4"
-  ui[4]: "in4"
-  ui[5]: "in5"
-  ui[6]: "in6"
-  ui[7]: "in7"
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
 
   # Outputs
   uo[0]: "out0"
